@@ -33,13 +33,23 @@ header{
 .text-end{
     justify-content: flex-end;
 }
+.row .bg_red{
+    flex-grow: 3;
+}
 
 /* BORDERS and PADDING */
 .border{
     border: 1px dotted black;
 }
+.light-border{
+    border: 1px dotted white;
+}
 .padding-5{
     padding: 5px 0;
+}
+
+.padding-10{
+    padding: 10px 0;
 }
 .padding-20{
     padding: 20px 0;
@@ -50,6 +60,9 @@ header  .col-25{
 
 
 /* COLUMS  */
+.col-20{
+    width: calc(100% / 5 - 30px);
+ }
 .col-25{   
     width: 25%; 
     height: 100%;   
@@ -95,6 +108,16 @@ header  .col-25{
 }
 .bg_green{
     background-color: green;
+}
+.bg_red{
+    background-color: red;
+}
+.bg_cyan{
+    background-color: cyan;
+    
+}
+.bg_black{
+    background-color: rgb(43, 43, 43);
 }
 
 
