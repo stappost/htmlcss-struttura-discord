@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER  */
+header{
+    background-color: rgb(66, 202, 202);
+    padding: 10px 0;
+    
+}
+/* CONTAINER  */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* ROW FLEX and proprieties */
+.row{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.d-flex{
+    display: flex;
+}  
+.text-center{
+    justify-content: center; 
+}
+.text-end{
+    justify-content: flex-end;
+}
+/* BORDERS and PADDING */
+.border{
+    border: 1px dotted black;
+}
+.padding-5{
+    padding: 5px 0;
+}
+/* COLUMS  */
+.col-25{   
+    width: 25%; 
+    height: 100%;   
+}
+.col-50{
+    width: 50%;
+    height: 100%;
+}
+
+/* BG COLORS  */
+.bg_yellow{
+    background-color: rgb(255, 187, 0);
+}
+
+header  .col-25{
+    padding: 5px 5px;
+}
