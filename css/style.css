@@ -10,11 +10,14 @@ header{
     padding: 10px 0;
     
 }
+
 /* CONTAINER  */
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
 /* ROW FLEX and proprieties */
 .row{
     display: flex;
@@ -37,6 +40,14 @@ header{
 .padding-5{
     padding: 5px 0;
 }
+.padding-20{
+    padding: 40px 0;
+}
+header  .col-25{
+    padding: 5px 5px;
+}
+
+
 /* COLUMS  */
 .col-25{   
     width: 25%; 
@@ -46,12 +57,26 @@ header{
     width: 50%;
     height: 100%;
 }
+.col-75{
+    width: 75%;
+    height: 100%;
+}
+
+
 
 /* BG COLORS  */
 .bg_yellow{
     background-color: rgb(255, 187, 0);
 }
+.bg_blue{
+    background-color: blue;
+}
+.bg_violet{
+    background-color: rgb(199, 92, 190);
+}
 
-header  .col-25{
-    padding: 5px 5px;
+
+/* HEIGHT  */
+.h-400{
+    height: 400px;
 }
