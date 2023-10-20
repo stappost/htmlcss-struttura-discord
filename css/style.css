@@ -36,6 +36,10 @@ header{
 .row .bg_red{
     flex-grow: 3;
 }
+.text-sides{
+    justify-content: space-between;
+}
+
 
 /* BORDERS and PADDING */
 .border{
@@ -56,6 +60,9 @@ header{
 }
 header  .col-25{
     padding: 5px 5px;
+}
+footer .container:first-child{
+    margin-bottom: 10px;
 }
 
 
@@ -118,6 +125,9 @@ header  .col-25{
 }
 .bg_black{
     background-color: rgb(43, 43, 43);
+}
+.bg_lightgreen{
+    background-color: lightgreen;
 }
 
 
