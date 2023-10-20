@@ -33,6 +33,7 @@ header{
 .text-end{
     justify-content: flex-end;
 }
+
 /* BORDERS and PADDING */
 .border{
     border: 1px dotted black;
@@ -41,7 +42,7 @@ header{
     padding: 5px 0;
 }
 .padding-20{
-    padding: 40px 0;
+    padding: 20px 0;
 }
 header  .col-25{
     padding: 5px 5px;
@@ -53,8 +54,16 @@ header  .col-25{
     width: 25%; 
     height: 100%;   
 }
+.col-40{
+    width: 40%;
+    height: 100%;
+}
 .col-50{
     width: 50%;
+    height: 100%;
+}
+.col-60{
+    width: 60%;
     height: 100%;
 }
 .col-75{
@@ -74,9 +83,15 @@ header  .col-25{
 .bg_violet{
     background-color: rgb(199, 92, 190);
 }
+.bg_pink{
+    background-color: pink;
+}
 
 
 /* HEIGHT  */
 .h-400{
     height: 400px;
+}
+.h-500{
+    height: 500px;
 }
