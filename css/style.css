@@ -68,7 +68,7 @@ footer .container:first-child{
 
 /* COLUMS  */
 .col-20{
-    width: calc(100% / 5 - 30px);
+    width: calc(100% / 5 - 2%);
  }
 .col-25{   
     width: 25%; 
